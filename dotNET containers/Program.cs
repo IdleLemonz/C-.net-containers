@@ -10,8 +10,18 @@ namespace dotNET_containers
     {
         static void Main(string[] args)
         {
-            Test test = new Test();
-            test.ListExample();
+            List<int> myList = new List<int>();
+            myList.Add(4);
+            myList.Add(10);
+            myList.Add(1);
+            foreach (int item in myList)
+            {
+                Console.WriteLine(item);
+            }
+
+
+            //Test test = new Test();
+            //test.ListExample();
             while (true) ;
         }
         
